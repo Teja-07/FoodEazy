@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/biryanibutton_bg.xml" value="0.275" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/center_textview.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/ic_baseline_not_listed_location_24.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/orange_bg.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/pink_bg.xml" value="0.25925925925925924" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/shryinkpink_bg.xml" value="0.2740740740740741" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/signup_bg.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/signuppage_editext.xml" value="0.2824074074074074" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/spinner_bg.xml" value="0.2824074074074074" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/teal_bg.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/teal_bg1.xml" value="0.2824074074074074" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/drawable/tealsignup_bg.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_biryanipage.xml" value="0.10884353741496598" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_biryanirecyclerview.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_bugerpage.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_burgeradapter.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_dessertadapter.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_dessertpage.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_home_page.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_payment_page.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_pizzaadapter.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_pizzapage.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_shakesadapter.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_shakespage.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_signup.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_spash_screen.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_starteradapter.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Chinitha Teja/AndroidStudioProjects/SampleLogin_page/app/src/main/res/layout/activity_starterspage.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

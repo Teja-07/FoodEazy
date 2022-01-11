@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/background"
+    tools:context=".Signup">
+
+
+
+            <TextView
+                android:id="@+id/signup_signuppage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/fff_tusj"
+                android:text="SignUp"
+                android:textColor="@color/teal_200"
+                android:textSize="40dp"></TextView>
+
+            <LinearLayout
+                android:id="@+id/linear_namesignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/signup_signuppage"
+                android:layout_marginTop="15dp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="30dp"
+                        android:text="First Name"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="30dp"
+                        android:text="Last Name"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Edit_namesignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_namesignup"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/firstname_signup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/signuppage_editext"
+                        android:hint="First name"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/lastname_signup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/signuppage_editext"
+                        android:hint=" last name"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"></EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textEmail_signuppage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Edit_namesignup"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="30dp"
+                android:text=" Email Id"
+                android:textColor="@color/black"
+                android:textSize="17dp"></TextView>
+
+            <EditText
+                android:id="@+id/Editmail_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textEmail_signuppage"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/signuppage_editext"
+                android:hint="Enter Your Email Id"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"></EditText>
+
+            <LinearLayout
+                android:id="@+id/textdobgender_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Editmail_signup"
+                android:layout_marginTop="15dp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/Dob_signup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Editmail_signup"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="30dp"
+                        android:text=" Dob"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/gendertext_signuppage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Editmail_signup"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="30dp"
+                        android:text="  Gender"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Editdob_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textdobgender_signup"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/edittextDob_signup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/signuppage_editext"
+                        android:hint="DOB"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_bg">
+
+                    <Spinner
+                        android:id="@+id/Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textpassword_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Editdob_signup"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="30dp"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="17dp"></TextView>
+
+            <EditText
+                android:id="@+id/Passwordlogin_singup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textpassword_signup"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/signuppage_editext"
+                android:ems="10"
+                android:hint="Please enter the password"
+                android:inputType="textPassword"
+                android:paddingLeft="30dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"></EditText>
+
+            <TextView
+                android:id="@+id/Reenterpassword_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Passwordlogin_singup"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="30dp"
+                android:text="Re-Enter Password"
+                android:textColor="@color/black"
+                android:textSize="17dp"></TextView>
+
+            <EditText
+                android:id="@+id/EditPasswordlogin_singup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Reenterpassword_signup"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/signuppage_editext"
+                android:ems="10"
+                android:hint="Please enter the password"
+                android:inputType="textPassword"
+                android:paddingLeft="30dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"></EditText>
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditPasswordlogin_singup"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/poppins_semibolditalic"
+                android:text="Plz Enter press the correct symbol"></CheckBox>
+
+    <Button
+        android:id="@+id/login_signpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/teal_200"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="18dp"></Button>
+
+
+</RelativeLayout>

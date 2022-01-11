@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shryinkpink_bg"
+    tools:context=".payment_page">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/white"
+        android:fontFamily="@font/gadamer"
+        android:text="Payment Page"
+        android:textAlignment="center"
+        android:textColor="@color/shrinkpink"
+        android:textSize="30dp"></TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="90dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PhonePe"
+            android:fontFamily="@font/poppins_semibolditalic"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="80dp"></CheckBox>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use Other Cards"
+            android:fontFamily="@font/poppins_semibolditalic"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="130dp"></CheckBox>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Pay"
+            android:fontFamily="@font/poppins_semibolditalic"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="180dp"></CheckBox>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amazon Pay"
+            android:fontFamily="@font/poppins_semibolditalic"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="230dp"></CheckBox>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Pay Now"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibolditalic"
+            android:textSize="18dp"
+            android:layout_marginTop="350dp"></Button>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
